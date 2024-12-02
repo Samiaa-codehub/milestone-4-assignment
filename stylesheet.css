@@ -129,8 +129,8 @@ p{
 }
 
 #profileImage {
-    max-width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 border: 2px solid #f0f0f0;
 box-shadow: 0.8px 5px 2px #f0f0f0;
@@ -140,7 +140,7 @@ box-shadow: 0.8px 5px 2px #f0f0f0;
     
 }
 
-/* Styles for Medium Screens (Tablets) */
+
 @media (max-width: 768px) {
     .container {
         max-width: 90%;
@@ -154,7 +154,7 @@ box-shadow: 0.8px 5px 2px #f0f0f0;
     }
 }
 
-/* Styles for Small Screens (Mobile, 400px width) */
+
 @media (max-width: 400px) {
     body {
         padding: 10px;
