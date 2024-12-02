@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+    background-color: #f0f0f0;
+    background-image: url(image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: #c5ddf1;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+header{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 25px;   
+    
+
+    color: antiquewhite;
+
+
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 9px rgba(235, 231, 231, 0.6);
+    padding: auto;
+}
+fieldset{
+    border-radius: 2px solid transparent;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    font-size: larger;
+    padding: auto;
+    margin-bottom: 10px;
+}
+textarea,input{
+    width:calc(100% - 16px);
+    padding:8px;
+    border: 2px solid cadetblue;
+    box-sizing: border-box;
+    border-radius:8px;
+    box-shadow: 5px 5px 5px cadetblue;
+
+}
+.main{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    filter:drop-shadow(5px 5px 5px #f0f0f0)
+}
+button{
+    display: block;
+    width: 100%;
+    padding:10px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: rgba(0,0,0,0.6);
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: rgb(1, 1, 53);
+
+}
+button:hover{ 
+    background-color:cadetblue;
+
+}
+h4{
+    text-align: center;
+    text-decoration: underline double;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin-top: 10px;
+    font-weight: 900;
+}
+#resume{
+    margin: 5px;
+    padding: auto;
+    margin-bottom: 26px;
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+p{
+    margin-bottom: 30px;
+    padding: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+#resume-output {
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgb(3, 17, 39);
+    margin: auto;
+    border: 4px solid #c5ddf1;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #f0f0f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#profileImage {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+border: 2px solid #f0f0f0;
+box-shadow: 0.8px 5px 2px #f0f0f0;
+    margin: auto;
+    object-fit: cover;
+    display: block;
+    
+}
+
+/* Styles for Medium Screens (Tablets) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    #resume-output {
+        max-width: 100%;
+        padding: 15px;
+        font-size: medium;
+    }
+}
+
+/* Styles for Small Screens (Mobile, 400px width) */
+@media (max-width: 400px) {
+    body {
+        padding: 10px;
+    }
+     .main{
+        font-size: 25px;
+     }
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #resume-output {
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        border: 2px solid #c5ddf1;
+        box-shadow: none;
+        font-size: small;
+        margin-top: 20px;
+        
+    }
+
+    #resume img {
+        
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #resume h3 {
+        font-size: 1em;
+    }
+
+    #resume p {
+        font-size: 0.9em;
+        line-height: 1.2;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+    }
+}
